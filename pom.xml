@@ -35,18 +35,18 @@
         <jackson-datatype-jsr310.version>2.8.8</jackson-datatype-jsr310.version>
         <jackson-module-afterburner.version>2.8.8</jackson-module-afterburner.version>
         <jacoco-maven-plugin.version>0.7.9</jacoco-maven-plugin.version>
-        <java.version>1.8</java.version>
+        <java.version>11</java.version>
         <jcache.version>1.0.0</jcache.version>
         <jzlib.version>1.1.3</jzlib.version>
         <jhipster.server.version>1.1.8</jhipster.server.version>
         <jjwt.version>0.7.0</jjwt.version>
-		<kotlin.version>1.1.4-2</kotlin.version>
+		<kotlin.version>1.8.0</kotlin.version>
         <liquibase-hibernate5.version>3.6</liquibase-hibernate5.version>
         <liquibase-slf4j.version>2.0.0</liquibase-slf4j.version>
         <logstash-logback-encoder.version>4.9</logstash-logback-encoder.version>
         <m2e.apt.activation>jdt_apt</m2e.apt.activation>
         <mapstruct.version>1.1.0.Final</mapstruct.version>
-        <maven-compiler-plugin.version>3.6.0</maven-compiler-plugin.version>
+        <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
         <maven-enforcer-plugin.version>1.4.1</maven-enforcer-plugin.version>
         <maven-resources-plugin.version>3.0.1</maven-resources-plugin.version>
         <maven.build.timestamp.format>yyyyMMddHHmmss</maven.build.timestamp.format>
@@ -270,7 +270,7 @@
         </dependency>
         <dependency>
             <groupId>org.jetbrains.kotlin</groupId>
-            <artifactId>kotlin-stdlib-jre8</artifactId>
+            <artifactId>kotlin-stdlib</artifactId>
             <version>${kotlin.version}</version>
         </dependency>
         <dependency>
